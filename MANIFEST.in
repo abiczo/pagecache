@@ -1,0 +1,2 @@
+include README.rst
+include pagecache/test_pagecache.py

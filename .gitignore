@@ -1,0 +1,5 @@
+dist/
+build/
+pagecache.egg-info/
+*.pyc
+*.swp
