@@ -30,7 +30,7 @@ class PageCacheMiddleware(object):
                 expires = cached[0]
                 curr_ts = time.time()
 
-                # chech whether TTL has expired
+                # check whether TTL has expired
                 if curr_ts > expires:
                     # we're in the grace period, content needs to be updated
                     update_lock = self.cache.add(lock_key, 'LOCK',
