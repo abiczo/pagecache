@@ -1,8 +1,10 @@
 from setuptools import setup
 
+long_description = open('README.rst').read()
+
 setup(name='pagecache',
       description='Page caching WSGI middleware',
-      long_description='Page caching WSGI middleware',
+      long_description=long_description,
       author='Andras Biczo',
       author_email='abiczo@gmail.com',
       url='http://github.com/abiczo/pagecache',
