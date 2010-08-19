@@ -56,7 +56,11 @@ responses that will be cached.
 Install
 =======
 
-You can install the latest version from the
+You can install PageCache from PyPI::
+
+    pip install pagecache
+
+or you can install the latest version from the
 `github repository <http://github.com/abiczo/pagecache>`_::
 
     git clone git://github.com/abiczo/pagecache.git
